@@ -16,7 +16,7 @@ else:
         response = model.generate_content(query)
         return response.text
     
-    # Streamlit UI bot
+    # Streamlit UI chattt bot
 
     st.set_page_config(page_title="SMART BOT")
     st.header("SMART BOT")
